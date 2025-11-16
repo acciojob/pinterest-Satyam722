@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+/* Outer Hero Container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+/* Hero Image */
+.hero img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text content */
+.content {
+    margin-left: 30px;
+}
+
+/* Heading */
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.content p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    padding: 10px 20px;
+    background-color: #e60023;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: default; /* prevents click behavior */
+}
